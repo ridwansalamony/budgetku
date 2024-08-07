@@ -71,3 +71,10 @@ budgets.forEach((budget) => {
   `;
 });
 sectionBudget.innerHTML += '<button type="button" class="add-budget">+</button>';
+
+// Modal
+const btnAdd = document.querySelector(".add-budget");
+const modal = document.querySelector(".modal-budget");
+const btnCloseModal = document.querySelector(".close-modal");
+btnAdd.addEventListener("click", () => modal.classList.toggle("modal-show"));
+btnCloseModal.addEventListener("click", () => modal.classList.toggle("modal-show"));

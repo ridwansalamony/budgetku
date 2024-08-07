@@ -31,6 +31,34 @@
         </div>
       </header>
       <section class="budgets"></section>
+      <div class="modal-budget">
+        <div class="container-card">
+          <div class="container-title">
+            <h4>Tambah Budget</h4>
+            <button type="button" class="close-modal">
+              <i class="ph-fill ph-x-circle"></i>
+            </button>
+          </div>
+          <form action="#" class="form-budget">
+            <div class="form-item">
+              <label for="budget_name">Nama Budget</label>
+              <input type="text" name="budget_name" id="budget_name" required autocomplete="off" />
+            </div>
+            <div class="form-item">
+              <label for="budget_amount">Jumlah Budget</label>
+              <div class="input-amount">
+                <input type="number" name="budget_amount" id="budget_amount" required />
+              </div>
+            </div>
+            <div class="form-submit">
+              <button type="button" class="delete-budget hide">
+                <i class="ph-fill ph-trash"></i>
+              </button>
+              <button type="submit" class="submit-budget">Simpan</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     <script type="module" src="js/script.js"></script>
   </body>
