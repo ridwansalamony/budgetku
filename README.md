@@ -1,3 +1,3 @@
 # Budgetku App
 
-Sumber : budgetku.vercel.app
+Source : budgetku.vercel.app
